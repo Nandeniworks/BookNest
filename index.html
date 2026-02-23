@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BookNest</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: italic;
+      background-color: #e5d7c4;
+    }
+
+    .hero {
+      background-color: #cfbb99;
+      padding: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .hero-text h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+
+    .hero-text p {
+      font-style: italic;
+      margin: 10px 0;
+    }
+
+    .hero-text button {
+      padding: 10px 15px;
+      border: none;
+      background-color: #889063;
+      color: white;
+      cursor: pointer;
+    }
+
+    
+    h2 {
+      margin: 30px 40px 10px;
+    }
+
+    
+    .books {
+      display: flex;
+      gap: 20px;
+      padding: 0 40px;
+    }
+
+    .book {
+      background: white;
+      padding: 10px;
+      text-align: center;
+      width: 150px;
+    }
+
+    .book img {
+      width: 100%;
+      height: 200px;
+      background-color:#354024;
+    }
+
+    
+    .corners {
+      display: flex;
+      gap: 20px;
+      padding: 0 40px 40px;
+    }
+
+    .corner {
+      background: white;
+      padding: 10px;
+      width: 200px;
+      text-align: center;
+    }
+
+    .corner img {
+      width: 100%;
+      height: 120px;
+      background-color: #4c3d19;
+    }
+    .book a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .book a:hover {
+    opacity: 0.8;
+  }
+  </style>
+</head>
+
+<body>
+
+  
+  <div class="hero">
+    <div class="hero-text">
+      <h1>Welcome to BookNest</h1>
+      <p>"There is no friend as loyal as a book."</p>
+      <button>Explore Books</button>
+    </div>
+  </div>
+
+  
+  <h2>Featured Books</h2>
+  <div class="books">
+    <div class="book">
+      <a href="https://amzn.in/d/e9dCMy1" target="_blank">
+      <img src="dance.jpg" class="profile-pic" alt="LinkedIn Profile">
+      <p><b>A Dance With Dragons </b></p>
+      </a>
+      <small>George RR Martin</small>
+    </div>
+
+    <div class="book">
+      <a href="https://amzn.in/d/c85MDUc" target="_blank">
+      <img src="fire.jpg" class="profile-pic" alt="book link">
+      <p><b>Fire and Blood</b></p>
+      </a>
+      <small>George RR Martin</small>
+    </div>
+
+    <div class="book">
+      <a href="https://amzn.in/d/37V7K8n" target="_blank">
+      <img src="goblet.jpg" class="profile-pic" alt="book link">
+      <p><b>Harry Potter and Goblet of Fire</b></p>
+      </a>
+      <small>JK Rowling</small>
+    </div>
+
+    <div class="book">
+       <a href="https://amzn.in/d/25hlv0N">
+      <img src="crime.jpg" class="profile-pic" alt="book link">
+      <p><b>CRIMES OF GRINDLEWALD</b></p>
+      </a>
+      <small>JK Rowling</small>
+    </div>
+  </div>
+
+  
+  <h2>Cozy Reading Corners</h2>
+  <div class="corners">
+    <div class="corner">
+      <img src="window.jpg" class="profile-pic" alt="">
+      <p>Home Window Seat</p>
+    </div>
+
+    <div class="corner">
+      <img src="nook.jpeg" class="profile-pic" alt="">
+      <p>Relaxing Reading Nook</p>
+    </div>
+
+    <div class="corner">
+      <img src="outside.jpg" class="profile-pic" alt="">
+      <p>Outdoor Patio</p>
+    </div>
+  </div>
+  
+</body>
+</html>
